@@ -1,0 +1,1 @@
+<view><view>{{city}}</view><view data-event-opts="{{[['tap',[['sendcode',['$event']]]]]}}" bindtap="__e">扫码</view></view>

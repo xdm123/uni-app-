@@ -1,0 +1,18 @@
+{
+    "appInfo": {},
+    "appid": "17086862",
+    "appkey": "",
+    "condition": {},
+    "libVersion": "",
+    "projectname": "uni-app-study",
+    "setting": {
+        "urlCheck": true
+    },
+    "host": "baiduboxapp",
+    "swan": {
+        "baiduboxapp": {
+            "swanJsVersion": "3.110.24",
+            "extensionJsVersion": "1.6.9"
+        }
+    }
+}

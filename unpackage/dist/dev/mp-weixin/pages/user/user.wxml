@@ -1,0 +1,1 @@
+<view><button data-event-opts="{{[['tap',[['opentest',['$event']]]]]}}" bindtap="__e">打开弹窗</button><uni-popup class="vue-ref" vue-id="380011e0-1" type="bottom" data-ref="popup" bind:__l="__l" vue-slots="{{['default']}}"><view class="box">dsadsadsaasa</view></uni-popup></view>

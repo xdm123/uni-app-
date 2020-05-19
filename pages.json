@@ -1,0 +1,67 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "我爱我家"
+			}
+		},{
+			"path" : "pages/message/message",
+			"style" : {
+				"navigationBarTitleText": "消息"
+			}
+		},{
+			"path" : "pages/user/user",
+			"style" : {
+				"navigationBarTitleText": "个人中心"
+			}
+		},{
+			"path" : "pages/citylist/citylist",
+			"style" : {
+				"navigationBarTitleText": "选择城市"
+			}
+		}
+        ,{
+            "path" : "pages/webview/webview",
+            "style" : {}
+        }
+        
+        
+        ,{
+            "path" : "pages/newhouse/list/list",
+            "style" : {}
+        },{
+		    "path" : "pages/newhouse/newhouseindex/newhouseindex",
+		    "style" : {"navigationBarTitleText": "新房"}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "我爱我家",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7D7E82",
+		"selectedColor": "#292B33",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/resources/bar-home.png",
+				"selectedIconPath": "static/img/resources/bar-home-cur.png",
+				"text": "首页"
+		}, {
+				"pagePath": "pages/message/message",
+				"iconPath": "static/img/resources/bar-message.png",
+				"selectedIconPath": "static/img/resources/bar-message-cur.png",
+				"text": "消息"
+		}, {
+				"pagePath": "pages/user/user",
+				"iconPath": "static/img/resources/bar-my.png",
+				"selectedIconPath": "static/img/resources/bar-my-cur.png",
+				"text": "我的"
+		}]
+	}
+}
